@@ -18,11 +18,14 @@
 .album-photos {
     margin-top: 1rem;
     display: flex;
+    width:100%;
 }
 
 .album-photos img {
     object-fit: cover;
     border-radius: .3rem;
+    width: 50%;
+    height: 25rem;
 }
 
 .album-details {
@@ -61,10 +64,6 @@
     color: var(--dark);
 }
 
-.album-link {
-
-}
-
 .album-link a {
     color: var(--link);
     font-size: 1.2rem;
@@ -96,9 +95,11 @@
         width: 40rem;
      }
      .album-photos {
-         width: 100%;
          flex-direction: column;
       }
+      .album-photos img {
+        width: 100%;
+     }
  
      .album-details {
          width: 100%;
